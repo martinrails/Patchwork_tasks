@@ -1,4 +1,5 @@
-
+require 'crypto_client'
+require 'task_3'
 
 RSpec.describe 'TaskThree' do
   let(:task) { TaskThree.new(currency: 'BTT', reference_fiat: 'EUR') }

@@ -1,4 +1,5 @@
-
+require 'crypto_client'
+require 'task_1'
 
 RSpec.describe 'TaskOne' do
   let(:task) { TaskOne.new(['BTT', 'AXS']) }
